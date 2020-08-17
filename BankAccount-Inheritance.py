@@ -13,10 +13,7 @@ class Account:
 
     def commit(self):
         with open(self.filepath, 'w') as file:
-            file.write(str(self.balance)
-
-#account = Account("BankAccount//Balance.txt") 
-#print(account.balance)             
+            file.write(str(self.balance)             
 
 
 class Checking(Account):   #Passing base class as a parameter
