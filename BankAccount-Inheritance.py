@@ -28,8 +28,7 @@ class Checking(Account):   #Passing base class as a parameter
 
 checking = Checking("account\\balance.txt", 1)
 checking.deposit(10)
-checking.transfer(100)  
-                 
+checking.transfer(100)                   
 print(checking.balance)
 checking.commit()
 
